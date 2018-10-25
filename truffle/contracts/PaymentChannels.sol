@@ -18,7 +18,7 @@ contract PaymentChannels {
         if (to == msg.sender) { revert(); }
         if (active_channel_ids[msg.sender][to] != bytes32(0)) { revert(); }
         // The merchant should have reasonable time to settle the channel
-        if (duration < 3600) { throw; }
+        if (duration < 3600) { revert(); }
 
         // Generate channel id
         uint channel_timeout = now + duration;
