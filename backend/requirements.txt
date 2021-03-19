@@ -5,7 +5,7 @@ cytoolz==0.9.0
 Django==2.0.11
 django-cors-headers==2.1.0
 django-filter==1.1.0
-djangorestframework==3.7.7
+djangorestframework==3.11.2
 eth-abi==1.0.0b0
 eth-account==0.1.0a2
 eth-keyfile==0.5.1
