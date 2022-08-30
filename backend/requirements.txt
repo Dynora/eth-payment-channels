@@ -7,7 +7,7 @@ django-cors-headers==2.1.0
 django-filter==1.1.0
 djangorestframework==3.7.7
 eth-abi==1.0.0b0
-eth-account==0.1.0a2
+eth-account==0.5.9
 eth-keyfile==0.5.1
 eth-keys==0.2.0b1
 eth-rlp==0.1.0a2
